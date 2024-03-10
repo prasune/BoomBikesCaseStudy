@@ -36,12 +36,12 @@ You are required to model the demand for shared bikes with the available indepen
 
 ## Conclusions
 ### Final result comparison of R square of training and test data
-Training Data R-squared: 0.834
+Training Data R-squared: 0.834 <br>
 Testing Data R-squared: 0.814
 
 #### This is a good model for predicting bike rental demands of Boomikes
-Percentage deviation of R2 from training data to test data is 2.4% ((0.834-0.814)/0.834) which is less than 5%
-Percentage deviation of adjusted R2 from training data to test data is 3.3% ((0.830-0.803)/0.830) which is less than 5%
+Percentage deviation of R2 from training data to test data is 2.4% ((0.834-0.814)/0.834) which is less than 5% <br>
+Percentage deviation of adjusted R2 from training data to test data is 3.3% ((0.830-0.803)/0.830) which is less than 5% <br>
 Equation: cnt = 0.2360 * yr - 0.0893 * holiday + 0.3593 * temp - 0.1520 * windspeed - 0.1070 * spring + 0.0670 * winter - 0.2975 * Light_Snow - 0.0789 * Mist_Cloudy - 0.0560 * Dec - 0.0623 * Jan - 0.0531 * Nov + 0.0640 * Sep
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
